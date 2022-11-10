@@ -28,7 +28,7 @@ header > h1 {
     padding-top: 50px;
     font-family: var(--fonte-titulo);
     font-weight: normal;
-    font-size: 3.5em;
+    font-size: 4em;
     font-variant: small-caps;
 }
 
@@ -52,6 +52,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte-padrao);
+    font-size: 1.5em;
 }
 
 section.normal {
@@ -65,8 +66,9 @@ section.imagem {
 }
 
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.253);
+    padding-right: 10px;
 }
 
 footer {
